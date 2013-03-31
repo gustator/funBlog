@@ -31,14 +31,36 @@ body {
 .head div {
     position:absolute;
     display:inline-block;
-    width: 290px;
-    left: 50%;
-    margin-left: -145px;
+    width: 700px;
+    right: 40%;
+    left: 30%;
+}
+
+/* Style tags */
+.tag {
+    width:160px;
+    padding-right:40px;
+}
+
+.tag li {
+    list-style:none;
+    text-align:center;
+    background-color:#eef7fb;
+    color:#4b86a0;
+    border:solid 1px #d8e6ec;
+    border-radius:10px;
+    margin-top:10px;
+    font-size:12px;
+}
+
+.tag li:hover {
+    background-color:#e6f1f6;
+    color:#4b86a0;
 }
 
 /* Alignment of container elements */
 .container {
-    width:1028px;
+    width:1150px;
     margin:40px auto 0;
 }
 
@@ -50,31 +72,6 @@ body {
 .container .post {
     width:700px;
     font-size:14px;
-}
-
-/* Style tags */
-.tag {
-    width:160px;
-}
-
-.right a {
-    float: right;
-}
-a.tagbutton {
-    display: block;
-    width: 120px;
-    text-align:center;
-    background-color:#eef7fb;
-    color:#4b86a0;
-    border:solid 1px #d8e6ec;
-    border-radius:10px;
-    margin-top:10px;
-    font-size:12px;
-}
-
-a.tagbutton:hover {
-    background-color:#e6f1f6;
-    color:#4b86a0;
 }
 
 /* Styles of other elements */
