@@ -7,26 +7,33 @@ body {
 /* Menu style */
 .head {
     height:25px;
-    background-color:#bbb;
+    background-color:#f1f1f1;
+    border-bottom: solid 1px #ebebeb;
     font-weight:700;
     font-size:12px;
     margin:0;
 }
 
 .head a {
-    display:inline-block;
-    color:#000;
-    margin:5px;
+    display: inline-block;
+    margin: 5px 20px 0 0;
+    color: #333;
 }
 
 .head a:hover {
-    color:#fff;
+    color: #4B86A0;
+}
+
+.head a#now {
+    border-bottom: 2px solid;
 }
 
 .head div {
     position:absolute;
     display:inline-block;
-    right:100px;
+    width: 700px;
+    right: 40%;
+    left: 30%;
 }
 
 /* Style tags */
@@ -38,17 +45,17 @@ body {
 .tag li {
     list-style:none;
     text-align:center;
-    background-color:#4d90fe;
-    color:#fff;
-    border:solid 0;
+    background-color:#eef7fb;
+    color:#4b86a0;
+    border:solid 1px #d8e6ec;
     border-radius:10px;
     margin-top:10px;
     font-size:12px;
 }
 
 .tag li:hover {
-    background-color:#ffbb4c;
-    color:#000;
+    background-color:#e6f1f6;
+    color:#4b86a0;
 }
 
 /* Alignment of container elements */
@@ -69,9 +76,9 @@ body {
 
 /* Styles of other elements */
 h1 {
-    border:solid 0;
+    border:solid 1px #D8E6EC;
     border-radius:10px;
-    background-color:#ffbb4c;
+    background-color:#E6F1F6;
     color:#000;
     font-family:"Times New Roman", Times, serif;
     font-size:24px;
@@ -84,6 +91,7 @@ p {
     text-align:justify;
     text-indent:1cm;
     padding:0 40px;
+    color: #222;
 }
 
 a:link {
