@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/highlight/styles/default.css">
+    <script src="js/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>paramon.name</title>
+  </head>
+  <body>
+    <div class="head">
+      <div>
+	<a href="index.html" id="now">Home</a>
+	<a href="index.html">E-learning</a>
+	<a href="index.html">Project</a>
+	<a href="index.html">About Me</a>
+      </div>
+	<a href="#" class="rss"> </a>
+    </div>
+    <div class="search">
+        <form id="search_form" action="/" method="get" name="search">
+            <input type="text" placeholder="Search..." name="search" autocomplete="on">
+        </form>
+    </div>
+    
+    <div class="container">
+      <div class="tag">
+	  <a href="#" class="tagbutton">CommonLisp <sup>16</sup></a>
+	  <a href="#" class="tagbutton">JavaScript <sup>10</sup></a>
+	  <a href="#" class="tagbutton">CSS3 <sup>7</sup></a>
+	  <a href="#" class="tagbutton">HTML5 <sup>5</sup></a>
+	  <a href="#" class="tagbutton">Разное <sup>2</sup></a>
+      </div>
+
+      <div class="post">
+	<h1>funBlog 0.0.1</h1>
+	<p>В начале, я думаю, имеет смысл описать стили заголовков. Заголовок
+	  первого уровня останется таким каким был на индексной странице. Его цель -
+	  привлечение внимания. Когда фокус внимания пойман и пользователь перешёл
+	  к статье, отвлекать его излишними элементами оформления не следует, поэтому 
+	  оформление заголовков других уровней будет отличаться.</p>
+	<h2>Заголовок второго уровня</h2>
+	<p>Это заголовок второго уровня. Шрифт с засечками, абсолютно чёрный цвет
+	  и нижнее подчёркивание делают его достаточно заметным и в то же время не 
+	  отвлекающим от чтения статьи.</p>
+	<h3>Заголовок третьего уровня</h3>
+	<p>Это заголовок третьего уровня, я думаю трёх уровней
+	  заголовков мне будет вполне достаточно для комфортной работы
+	  так же я думаю, что пора начать писать описание моего блога
+	  включающее описание предназначения и функциональности, тогда
+	  я смогу ориентироваться на это описание в дальнейшей работе.</p>
+	<h2>Подсветка кода</h2>
+	<p>Код подствечивает скрипт highlight.js он автоматически определяет язык
+	  и выбирает цветовую схему, не имеет нумерации строк т.к. по философии
+	  автора это излишество и ничуть не помогает в чтении кода.</p>
+
+	<p><pre><code>
+(defun hello-world (x y)
+  (if (= (+ x y) 0.3)
+      (format t "true")
+      (format t "false")))
+	  </code></pre></p>
+      
+      <h2>Ссылки</h2>
+      <p>Ссылки будут оформлены <a href="#">следующим образом</a>. При наведении
+	будут подчёркиваться, ссылки по которым уже был совершён переход никак
+	особенно выделяться не будут.</p>
+
+      <h2>Списки</h2>
+      <p>Списки будут выглядеть следующим образом, я думаю что не стану менять их
+	стандартное оформление и оставлю всё как есть, за исключением цвета текста:
+	<ul>
+	  <li>Первый элемент;</li>
+	  <li>Второй элемент;</li>
+	  <li>Третий элемент;</li>
+	  <ul>
+	    <li>Первый подэлемент;</li>
+	  </ul>
+	</ul>
+      </p>
+      </div>
+      
+      <div class="tag right">
+	  <a href="#" class="tagbutton">Январь <sup>2</sup></a>
+	  <a href="#" class="tagbutton">Февраль <sup>8</sup></a>
+	  <a href="#" class="tagbutton">Март <sup>5</sup></a>
+	  <a href="#" class="tagbutton">Апрель <sup>10</sup></a>
+	  <a href="#" class="tagbutton">Май <sup>4</sup></a>
+      </div>
+    </div>
+  </body>
+</html>

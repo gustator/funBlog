@@ -107,16 +107,40 @@ a.tagbutton:hover {
 }
 
 /* Styles of other elements */
+h2, h3, pre, li {
+    margin: 0 40px;
+}
+
+ul {
+    color: #222;
+}
+
+h1, h2, h3 {
+    font-family: "Times New Roman", Times, serif;
+    color:#000;
+    text-align:left;
+}
+
+h2, h3 {
+    border-bottom: solid 1px #bbb;
+    padding-bottom: 5px;
+}
+
 h1 {
     border:solid 1px #D8E6EC;
     border-radius:10px;
     background-color:#E6F1F6;
-    color:#000;
-    font-family:"Times New Roman", Times, serif;
     font-size:24px;
-    text-align:left;
     margin:10px;
     padding:0 10px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
 }
 
 p {
@@ -147,4 +171,13 @@ a.read-more {
 
 a.read-more:hover {
     color: #4B86A0;
+}
+
+a {
+    text-decoration:none;
+    color: #4B86A0;
+}
+
+p a:hover {
+    border-bottom: solid 1px #4b86a0;
 }
