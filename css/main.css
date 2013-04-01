@@ -15,6 +15,7 @@ body {
 }
 
 .head a {
+    text-decoration:none;
     display: inline-block;
     margin: 5px 20px 0 0;
     color: #333;
@@ -28,17 +29,44 @@ body {
     border-bottom: 2px solid;
 }
 
+.head a.rss {
+    position: absolute;
+    right: 10px;
+    margin-top: 2px;
+    width: 22px;
+    height: 22px;
+    background: url(../ico/rss-dim.png);
+}
+
+.head a.rss:hover {
+    background: url(../ico/rss-light.png);
+}
+
 .head div {
     position:absolute;
     display:inline-block;
-    width: 290px;
+    width: 340px;
     left: 50%;
-    margin-left: -145px;
+    margin-left: -170px;
+    text-align: center;
+}
+
+/* Search form */
+.search {
+    margin: 15px 0 0 -150px;
+    position: absolute;
+    left: 50%;
+}
+
+.search input {
+    width: 300px;
+    border: solid 1px #ebebeb;
+    color: #4b86a0;
 }
 
 /* Alignment of container elements */
 .container {
-    width:1028px;
+    width:1040px;
     margin:40px auto 0;
 }
 
@@ -61,6 +89,7 @@ body {
     float: right;
 }
 a.tagbutton {
+    text-decoration:none;
     display: block;
     width: 120px;
     text-align:center;
