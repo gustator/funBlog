@@ -107,6 +107,15 @@ a.tagbutton:hover {
 }
 
 /* Styles of other elements */
+p, li {
+    line-height: 1.6;
+    text-align:justify;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
 h2, h3, pre, li {
     margin: 0 40px;
 }
@@ -144,7 +153,6 @@ h3 {
 }
 
 p {
-    text-align:justify;
     text-indent:1cm;
     padding:0 40px;
     color: #222;
